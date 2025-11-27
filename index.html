@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Kingdom Quiz</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a, #111827);
+      color: #f9fafb;
+      padding: 16px;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 480px;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 24px;
+      padding: 20px 18px 24px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      text-align: center;
+      color: #9ca3af;
+      margin-bottom: 16px;
+    }
+
+    .badge-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(55, 65, 81, 0.75);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 18px;
+      padding: 16px;
+      border: 1px solid rgba(75, 85, 99, 0.8);
+      display: none;
+    }
+
+    .card.active {
+      display: block;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 999px;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 12px;
+      background: #22c55e;
+      color: #022c22;
+      box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 6px 16px rgba(34, 197, 94, 0.55);
+    }
+
+    .btn-secondary {
+      background: #0f172a;
+      color: #e5e7eb;
+      border: 1px solid #4b5563;
+      box-shadow: none;
+    }
+
+    .question-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-bottom: 8px;
+    }
+
+    .question-text {
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+
+    .answers {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .answer-btn {
+      width: 100%;
+      text-align: left;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(75, 85, 99, 0.8);
+      background: rgba(15, 23, 42, 0.95);
+      color: #e5e7eb;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+
+    .answer-btn.correct {
+      background: rgba(34, 197, 94, 0.18);
+      border-color: #22c55e;
+    }
+
+    .answer-btn.wrong {
+      background: rgba(239, 68, 68, 0.18);
+      border-color: #ef4444;
+    }
+
+    .answer-btn:disabled {
+      cursor: default;
+      opacity: 0.9;
+    }
+
+    .fact {
+      font-size: 0.86rem;
+      color: #a5b4fc;
+      margin-top: 10px;
+      min-height: 1.2rem;
+    }
+
+    .score-big {
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .score-small {
+      text-align: center;
+      color: #9ca3af;
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+
+    .chip-row {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .chip {
+      font-size: 0.75rem;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(30, 64, 175, 0.6);
+      border: 1px solid rgba(129, 140, 248, 0.8);
+      color: #e0e7ff;
+    }
+
+    .footer-note {
+      margin-top: 10px;
+      font-size: 0.7rem;
+      text-align: center;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>Animal Kingdom Quiz</h1>
+    <p class="subtitle">Fast, fun animal facts for all ages 🐾</p>
+
+    <div class="badge-row">
+      <span class="badge">10 questions</span>
+      <span class="badge">Multiple choice</span>
+      <span class="badge">Kid-friendly</span>
+    </div>
+
+    <!-- Start screen -->
+    <div id="screen-start" class="card active">
+      <p style="font-size:0.95rem; line-height:1.4;">
+        Test your knowledge of the wild world — habitats, super-senses, and record-breaking animals.
+      </p>
+      <button id="start-btn" class="btn">Start Quiz</button>
+    </div>
+
+    <!-- Question screen -->
+    <div id="screen-question" class="card">
+      <div class="question-meta">
+        <span id="q-counter">Question 1 / 10</span>
+        <span id="q-score">Score: 0</span>
+      </div>
+      <div id="question-text" class="question-text">
+        <!-- question here -->
+      </div>
+      <div id="answers" class="answers">
+        <!-- buttons here -->
+      </div>
+      <div id="fact" class="fact"></div>
+      <button id="next-btn" class="btn btn-secondary" style="margin-top:14px; display:none;">
+        Next Question
+      </button>
+    </div>
+
+    <!-- End screen -->
+    <div id="screen-end" class="card">
+      <div class="score-big" id="final-score">8 / 10</div>
+      <div class="score-small" id="final-message">Great job, Animal Explorer!</div>
+      <div class="chip-row">
+        <span class="chip" id="badge-speed">Quick thinker</span>
+        <span class="chip" id="badge-accuracy">Sharp eyes</span>
+      </div>
+      <button id="restart-btn" class="btn">Play Again</button>
+      <p class="footer-note">
+        Tip: Add this page to your home screen to make it feel like an app.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    const questions = [
+      {
+        question: "Which animal is the largest land animal on Earth?",
+        options: ["White rhinoceros", "African elephant", "Hippo", "Giraffe"],
+        answer: 1,
+        fact: "African elephants can weigh up to 6,000 kg and use their trunks for smelling, drinking and grabbing food."
+      },
+      {
+        question: "Which bird is famous for mimicking almost any sound it hears?",
+        options: ["Eagle", "Lyrebird", "Owl", "Penguin"],
+        answer: 1,
+        fact: "Lyrebirds can copy chainsaws, camera shutters and even other birds’ songs."
+      },
+      {
+        question: "Which animal sleeps hanging upside down?",
+        options: ["Koala", "Sloth", "Bat", "Panda"],
+        answer: 2,
+        fact: "Bats’ feet naturally lock when they hang, so they don’t have to use energy to stay upside down."
+      },
+      {
+        question: "What is a baby kangaroo called?",
+        options: ["Cub", "Joey", "Calf", "Kid"],
+        answer: 1,
+        fact: "A newborn joey is about the size of a jellybean and climbs into its mother’s pouch to grow."
+      },
+      {
+        question: "Which ocean animal has eight arms?",
+        options: ["Octopus", "Shark", "Dolphin", "Seal"],
+        answer: 0,
+        fact: "An octopus has three hearts and blue blood, and it’s an expert at solving puzzles."
+      },
+      {
+        question: "Which animal is the fastest land runner?",
+        options: ["Horse", "Greyhound", "Cheetah", "Lion"],
+        answer: 2,
+        fact: "Cheetahs can sprint up to about 70 mph (112 km/h) for short bursts."
+      },
+      {
+        question: "Where do polar bears mainly live?",
+        options: ["Antarctica", "Arctic", "Sahara Desert", "Amazon Rainforest"],
+        answer: 1,
+        fact: "Polar bears are found in the Arctic, and their fur is actually transparent, not white."
+      },
+      {
+        question: "Which animal has a long, sticky tongue used to eat ants and termites?",
+        options: ["Anteater", "Zebra", "Rabbit", "Otter"],
+        answer: 0,
+        fact: "Giant anteaters can flick their tongues up to 150 times per minute."
+      },
+      {
+        question: "What type of animal is a Komodo dragon?",
+        options: ["Mammal", "Bird", "Reptile", "Fish"],
+        answer: 2,
+        fact: "Komodo dragons are the largest living lizards and have a powerful bite."
+      },
+      {
+        question: "Which animal uses echolocation to find its way in the dark?",
+        options: ["Bat", "Giraffe", "Elephant", "Flamingo"],
+        answer: 0,
+        fact: "Bats send out high-pitched sounds and listen for the echoes to ‘see’ in the dark."
+      }
+    ];
+
+    const screenStart = document.getElementById("screen-start");
+    const screenQuestion = document.getElementById("screen-question");
+    const screenEnd = document.getElementById("screen-end");
+
+    const startBtn = document.getElementById("start-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const restartBtn = document.getElementById("restart-btn");
+
+    const qCounterEl = document.getElementById("q-counter");
+    const qScoreEl = document.getElementById("q-score");
+    const questionTextEl = document.getElementById("question-text");
+    const answersEl = document.getElementById("answers");
+    const factEl = document.getElementById("fact");
+
+    const finalScoreEl = document.getElementById("final-score");
+    const finalMessageEl = document.getElementById("final-message");
+
+    let currentIndex = 0;
+    let score = 0;
+    let answered = false;
+
+    function showScreen(target) {
+      screenStart.classList.remove("active");
+      screenQuestion.classList.remove("active");
+      screenEnd.classList.remove("active");
+      target.classList.add("active");
+    }
+
+    function startQuiz() {
+      currentIndex = 0;
+      score = 0;
+      updateMeta();
+      showScreen(screenQuestion);
+      loadQuestion();
+    }
+
+    function updateMeta() {
+      qCounterEl.textContent = `Question ${currentIndex + 1} / ${questions.length}`;
+      qScoreEl.textContent = `Score: ${score}`;
+    }
+
+    function loadQuestion() {
+      const q = questions[currentIndex];
+      questionTextEl.textContent = q.question;
+      answersEl.innerHTML = "";
+      factEl.textContent = "";
+      answered = false;
+      nextBtn.style.display = "none";
+
+      q.options.forEach((option, index) => {
+        const btn = document.createElement("button");
+        btn.className = "answer-btn";
+        btn.textContent = option;
+        btn.dataset.index = index.toString();
+        answersEl.appendChild(btn);
+      });
+    }
+
+    function handleAnswerClick(event) {
+      const target = event.target;
+      if (!target.matches("button.answer-btn")) return;
+      if (answered) return;
+
+      answered = true;
+      const selectedIndex = Number(target.dataset.index);
+      const q = questions[currentIndex];
+
+      const buttons = answersEl.querySelectorAll("button.answer-btn");
+      buttons.forEach((btn, index) => {
+        btn.disabled = true;
+        if (index === q.answer) {
+          btn.classList.add("correct");
+        }
+        if (index === selectedIndex && index !== q.answer) {
+          btn.classList.add("wrong");
+        }
+      });
+
+      if (selectedIndex === q.answer) {
+        score++;
+        qScoreEl.textContent = `Score: ${score}`;
+      }
+
+      factEl.textContent = q.fact;
+      nextBtn.style.display = "block";
+    }
+
+    function nextQuestion() {
+      if (!answered) return;
+      currentIndex++;
+      if (currentIndex >= questions.length) {
+        endQuiz();
+      } else {
+        updateMeta();
+        loadQuestion();
+      }
+    }
+
+    function endQuiz() {
+      showScreen(screenEnd);
+      finalScoreEl.textContent = `${score} / ${questions.length}`;
+
+      const ratio = score / questions.length;
+      let message = "Great job, Animal Explorer!";
+      if (ratio === 1) {
+        message = "Perfect score! You’re a true Animal Master 🏆";
+      } else if (ratio >= 0.7) {
+        message = "Awesome! You really know your animals 🐾";
+      } else if (ratio >= 0.4) {
+        message = "Nice try! Keep learning and try again soon.";
+      } else {
+        message = "Every explorer starts somewhere — have another go!";
+      }
+      finalMessageEl.textContent = message;
+    }
+
+    startBtn.addEventListener("click", startQuiz);
+    answersEl.addEventListener("click", handleAnswerClick);
+    nextBtn.addEventListener("click", nextQuestion);
+    restartBtn.addEventListener("click", () => {
+      showScreen(screenStart);
+    });
+  </script>
+</body>
+</html>
