@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "mammals",
+      "name": "Mammals",
+      "description": "Discover amazing facts about warm-blooded animals",
+      "icon": "🦁",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 20
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "description": "Learn about our feathered friends in the sky",
+      "icon": "🦅",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 20
+    },
+    {
+      "id": "reptiles",
+      "name": "Reptiles",
+      "description": "Explore the world of cold-blooded creatures",
+      "icon": "🦎",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 20
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "description": "Dive into underwater wonders",
+      "icon": "🐠",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "amphibians",
+      "name": "Amphibians",
+      "description": "Meet creatures that live on land and water",
+      "icon": "🐸",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "insects",
+      "name": "Insects",
+      "description": "Discover the tiny creatures that rule the world",
+      "icon": "🦋",
+      "category": "core",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "big-cats",
+      "name": "Big Cats",
+      "description": "Meet the world's most powerful feline predators",
+      "icon": "🐯",
+      "category": "safari",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "sharks",
+      "name": "Sharks",
+      "description": "Explore the apex predators of the ocean",
+      "icon": "🦈",
+      "category": "ocean",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle",
+      "description": "Discover creatures of the tropical rainforest",
+      "icon": "🌴",
+      "category": "rainforest",
+      "unlockCost": 0,
+      "questionCount": 18
+    },
+    {
+      "id": "arctic",
+      "name": "Arctic Animals",
+      "description": "Meet animals that thrive in freezing climates",
+      "icon": "❄️",
+      "category": "arctic",
+      "unlockCost": 0,
+      "questionCount": 18
+    }
+  ],
+  "categories": [
+    {
+      "id": "core",
+      "name": "Core Packs",
+      "description": "The original animal kingdom packs"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean Life",
+      "description": "Deep sea and marine creatures"
+    },
+    {
+      "id": "safari",
+      "name": "Safari Adventures",
+      "description": "Animals from the African savanna"
+    },
+    {
+      "id": "rainforest",
+      "name": "Rainforest",
+      "description": "Creatures of the tropical rainforest"
+    },
+    {
+      "id": "arctic",
+      "name": "Arctic & Antarctic",
+      "description": "Animals that thrive in freezing climates"
+    },
+    {
+      "id": "endangered",
+      "name": "Endangered Species",
+      "description": "Learn about animals we need to protect"
+    },
+    {
+      "id": "prehistoric",
+      "name": "Prehistoric",
+      "description": "Ancient creatures and living fossils"
+    },
+    {
+      "id": "nocturnal",
+      "name": "Nocturnal",
+      "description": "Animals that come alive at night"
+    },
+    {
+      "id": "pets",
+      "name": "Pets & Domestic",
+      "description": "Our beloved animal companions"
+    },
+    {
+      "id": "australia",
+      "name": "Australian Wildlife",
+      "description": "Unique creatures from down under"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "lion",
+    "name": "Lion",
+    "fact": "A lion's roar can be heard up to 5 miles away.",
+    "question": "What is a group of lions called?",
+    "options": ["Pack", "Pride", "Herd", "Troop"],
+    "answer": "Pride",
+    "media": {
+      "image": "media/mammals/lion.jpg",
+      "video": "media/videos/majestic_lion_in_savanna.mp4",
+      "sound": "media/sounds/lion.mp3"
+    }
+  },
+  {
+    "id": "elephant",
+    "name": "African Elephant",
+    "fact": "Elephants are the largest land animals and can weigh up to 14,000 pounds.",
+    "question": "What is the primary use of an elephant's trunk?",
+    "options": ["Swimming", "Fighting", "Breathing and grasping", "Digging"],
+    "answer": "Breathing and grasping",
+    "media": {
+      "image": "media/mammals/elephant.jpg",
+      "video": "media/videos/african_elephant_walking.mp4",
+      "sound": "media/sounds/elephant.mp3"
+    }
+  },
+  {
+    "id": "giraffe",
+    "name": "Giraffe",
+    "fact": "Giraffes are the tallest mammals on Earth, with necks that can be 6 feet long.",
+    "question": "How many hours per day do giraffes typically sleep?",
+    "options": ["12-14 hours", "8-10 hours", "4-6 hours", "30 minutes to 2 hours"],
+    "answer": "30 minutes to 2 hours",
+    "media": {
+      "image": "media/mammals/giraffe.jpg",
+      "video": "media/videos/giraffe_eating_from_tree.mp4"
+    }
+  },
+  {
+    "id": "cheetah",
+    "name": "Cheetah",
+    "fact": "Cheetahs are the fastest land animals, capable of reaching speeds up to 70 mph.",
+    "question": "What gives cheetahs their exceptional speed?",
+    "options": ["Long legs", "Flexible spine", "Strong muscles", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/mammals/cheetah.jpg",
+      "video": "media/videos/cheetah_running_at_speed.mp4"
+    }
+  },
+  {
+    "id": "gorilla",
+    "name": "Gorilla",
+    "fact": "Gorillas share 98.3% of their DNA with humans.",
+    "question": "What do gorillas primarily eat?",
+    "options": ["Meat", "Fish", "Plants and fruits", "Insects"],
+    "answer": "Plants and fruits",
+    "media": {
+      "image": "media/mammals/gorilla.jpg"
+    }
+  },
+  {
+    "id": "zebra",
+    "name": "Zebra",
+    "fact": "Each zebra has a unique pattern of stripes, like a fingerprint.",
+    "question": "Why do zebras have stripes?",
+    "options": ["To attract mates", "To confuse predators", "For camouflage", "To regulate temperature"],
+    "answer": "To confuse predators",
+    "media": {
+      "image": "media/mammals/zebra.jpg"
+    }
+  },
+  {
+    "id": "panda",
+    "name": "Giant Panda",
+    "fact": "Giant pandas spend 12-16 hours a day eating bamboo.",
+    "question": "What percentage of a panda's diet is bamboo?",
+    "options": ["50%", "75%", "90%", "99%"],
+    "answer": "99%",
+    "media": {
+      "image": "media/mammals/panda.jpg",
+      "video": "media/videos/panda_eating_bamboo.mp4"
+    }
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "fact": "Dolphins are highly intelligent and can recognize themselves in mirrors.",
+    "question": "How do dolphins communicate?",
+    "options": ["Sign language", "Clicks and whistles", "Body language only", "Telepathy"],
+    "answer": "Clicks and whistles",
+    "media": {
+      "image": "media/mammals/dolphin.jpg",
+      "video": "media/videos/dolphin_jumping_in_ocean.mp4",
+      "sound": "media/sounds/dolphin.mp3"
+    }
+  },
+  {
+    "id": "polar-bear",
+    "name": "Polar Bear",
+    "fact": "Polar bears have black skin under their white fur to absorb heat from the sun.",
+    "question": "What color is a polar bear's fur actually?",
+    "options": ["White", "Clear/transparent", "Yellow", "Gray"],
+    "answer": "Clear/transparent",
+    "media": {
+      "image": "media/mammals/polar-bear.jpg"
+    }
+  },
+  {
+    "id": "kangaroo",
+    "name": "Kangaroo",
+    "fact": "Baby kangaroos, called joeys, are only about 1 inch long at birth!",
+    "question": "How do kangaroos move so efficiently?",
+    "options": ["Strong leg muscles", "Their tail acts as a spring", "Energy stored in tendons", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/mammals/kangaroo.jpg"
+    }
+  },
+  {
+    "id": "wolf",
+    "name": "Gray Wolf",
+    "fact": "Wolves can run up to 40 miles per hour when chasing prey.",
+    "question": "How do wolves communicate with their pack?",
+    "options": ["Only howling", "Body language and howling", "Telepathy", "Scent marking only"],
+    "answer": "Body language and howling",
+    "media": {
+      "image": "media/mammals/wolf.jpg",
+      "sound": "media/sounds/wolf.mp3"
+    }
+  },
+  {
+    "id": "hippopotamus",
+    "name": "Hippopotamus",
+    "fact": "Hippos secrete a natural sunscreen that is red-colored, leading to the myth that they sweat blood.",
+    "question": "Are hippos herbivores or carnivores?",
+    "options": ["Carnivores", "Herbivores", "Omnivores", "They don't eat"],
+    "answer": "Herbivores",
+    "media": {
+      "image": "media/mammals/hippopotamus.jpg"
+    }
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "fact": "Koalas sleep up to 22 hours a day because eucalyptus leaves provide very little energy.",
+    "question": "Are koalas bears?",
+    "options": ["Yes", "No, they are marsupials", "No, they are rodents", "Yes, they are small bears"],
+    "answer": "No, they are marsupials",
+    "media": {
+      "image": "media/mammals/koala.jpg"
+    }
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "fact": "No two tigers have the same stripe pattern - they're as unique as human fingerprints.",
+    "question": "What is the largest tiger subspecies?",
+    "options": ["Bengal tiger", "Siberian tiger", "Sumatran tiger", "South China tiger"],
+    "answer": "Siberian tiger",
+    "media": {
+      "image": "media/mammals/tiger.jpg"
+    }
+  },
+  {
+    "id": "bat",
+    "name": "Fruit Bat",
+    "fact": "Bats are the only mammals capable of true sustained flight.",
+    "question": "How do bats navigate in the dark?",
+    "options": ["Excellent night vision", "Echolocation", "Sense of smell", "Whiskers"],
+    "answer": "Echolocation",
+    "media": {
+      "image": "media/mammals/bat.jpg"
+    }
+  },
+  {
+    "id": "sloth",
+    "name": "Sloth",
+    "fact": "Sloths are so slow that algae grows on their fur, helping them camouflage in trees.",
+    "question": "How often do sloths come down from trees?",
+    "options": ["Every day", "Once a week", "Once a month", "Never"],
+    "answer": "Once a week",
+    "media": {
+      "image": "media/mammals/sloth.jpg"
+    }
+  },
+  {
+    "id": "rhino",
+    "name": "Rhinoceros",
+    "fact": "Rhino horns are made of keratin - the same protein as human fingernails.",
+    "question": "How good is a rhino's eyesight?",
+    "options": ["Excellent", "Very poor", "Average", "They are blind"],
+    "answer": "Very poor",
+    "media": {
+      "image": "media/mammals/rhino.jpg"
+    }
+  },
+  {
+    "id": "orca",
+    "name": "Orca (Killer Whale)",
+    "fact": "Orcas are actually the largest members of the dolphin family, not whales!",
+    "question": "What do orcas hunt?",
+    "options": ["Only fish", "Only seals", "Only whales", "Fish, seals, whales, and more"],
+    "answer": "Fish, seals, whales, and more",
+    "media": {
+      "image": "media/mammals/orca.jpg"
+    }
+  },
+  {
+    "id": "red-panda",
+    "name": "Red Panda",
+    "fact": "Red pandas are not closely related to giant pandas - they're in their own unique family!",
+    "question": "Where do red pandas live?",
+    "options": ["African jungles", "Australian forests", "Himalayan mountains", "South American rainforests"],
+    "answer": "Himalayan mountains",
+    "media": {
+      "image": "media/mammals/red-panda.jpg"
+    }
+  },
+  {
+    "id": "platypus",
+    "name": "Platypus",
+    "fact": "The platypus is one of only five mammals that lay eggs!",
+    "question": "What unique ability does a male platypus have?",
+    "options": ["It can fly", "It has venomous spurs", "It can change color", "It can echolocate"],
+    "answer": "It has venomous spurs",
+    "media": {
+      "image": "media/mammals/platypus.jpg"
+    }
+  }
+]

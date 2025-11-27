@@ -1,0 +1,205 @@
+[
+  {
+    "id": "tiger",
+    "name": "Bengal Tiger",
+    "fact": "Tigers are the largest wild cats in the world and can weigh up to 660 pounds.",
+    "question": "What makes each tiger unique, like a human fingerprint?",
+    "options": ["Their roar", "Their stripe pattern", "Their eye color", "Their paw size"],
+    "answer": "Their stripe pattern",
+    "media": {
+      "image": "media/big-cats/tiger.jpg",
+      "video": "media/videos/tiger.mp4"
+    }
+  },
+  {
+    "id": "african-lion",
+    "name": "African Lion",
+    "fact": "Lions are the only cats that live in social groups called prides, which can include up to 30 members.",
+    "question": "Why do male lions have manes?",
+    "options": ["To keep warm", "To attract females and intimidate rivals", "To protect from insects", "For camouflage"],
+    "answer": "To attract females and intimidate rivals",
+    "media": {
+      "image": "media/big-cats/african-lion.jpg",
+      "video": "media/videos/lion.mp4"
+    }
+  },
+  {
+    "id": "leopard",
+    "name": "Leopard",
+    "fact": "Leopards are incredibly strong and can carry prey twice their body weight up into trees.",
+    "question": "Why do leopards drag their prey into trees?",
+    "options": ["To dry the meat", "To hide it from other predators", "For a better view", "To share with birds"],
+    "answer": "To hide it from other predators",
+    "media": {
+      "image": "media/big-cats/leopard.jpg"
+    }
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "fact": "Jaguars have the strongest bite of all big cats and can crush turtle shells and crocodile skulls.",
+    "question": "What continent are jaguars native to?",
+    "options": ["Africa", "Asia", "South America", "Australia"],
+    "answer": "South America",
+    "media": {
+      "image": "media/big-cats/jaguar.jpg"
+    }
+  },
+  {
+    "id": "cheetah",
+    "name": "Cheetah",
+    "fact": "Cheetahs can accelerate from 0 to 60 mph in just 3 seconds, faster than most sports cars.",
+    "question": "What body feature helps cheetahs run so fast?",
+    "options": ["Extra-long claws", "Non-retractable claws for grip", "Webbed feet", "Hollow bones"],
+    "answer": "Non-retractable claws for grip",
+    "media": {
+      "image": "media/big-cats/cheetah.jpg",
+      "video": "media/videos/cheetah.mp4"
+    }
+  },
+  {
+    "id": "snow-leopard",
+    "name": "Snow Leopard",
+    "fact": "Snow leopards can leap up to 50 feet in a single bound and use their long tails for balance.",
+    "question": "What nickname is the snow leopard known by?",
+    "options": ["Mountain King", "Ghost of the Mountains", "White Shadow", "Ice Hunter"],
+    "answer": "Ghost of the Mountains",
+    "media": {
+      "image": "media/big-cats/snow-leopard.jpg",
+      "video": "media/videos/snow-leopard.mp4"
+    }
+  },
+  {
+    "id": "cougar",
+    "name": "Cougar",
+    "fact": "Cougars hold the Guinness World Record for the animal with the most names, including puma, mountain lion, and panther.",
+    "question": "How far can a cougar jump horizontally?",
+    "options": ["10 feet", "20 feet", "40 feet", "60 feet"],
+    "answer": "40 feet",
+    "media": {
+      "image": "media/big-cats/cougar.jpg"
+    }
+  },
+  {
+    "id": "lynx",
+    "name": "Eurasian Lynx",
+    "fact": "Lynx have excellent hearing and can detect a mouse under snow from 250 feet away.",
+    "question": "What are the distinctive tufts on a lynx's ears used for?",
+    "options": ["Decoration only", "Enhanced hearing", "Temperature regulation", "Communication"],
+    "answer": "Enhanced hearing",
+    "media": {
+      "image": "media/big-cats/lynx.jpg"
+    }
+  },
+  {
+    "id": "caracal",
+    "name": "Caracal",
+    "fact": "Caracals can jump up to 10 feet in the air to catch birds in flight with incredible precision.",
+    "question": "What does the name 'caracal' mean?",
+    "options": ["Fast runner", "Black ear", "Desert hunter", "Silent stalker"],
+    "answer": "Black ear",
+    "media": {
+      "image": "media/big-cats/caracal.jpg"
+    }
+  },
+  {
+    "id": "ocelot",
+    "name": "Ocelot",
+    "fact": "Ocelots are excellent swimmers and often catch fish and crabs for food.",
+    "question": "How do ocelots primarily hunt?",
+    "options": ["In packs", "Alone at night", "From trees only", "By chasing prey"],
+    "answer": "Alone at night",
+    "media": {
+      "image": "media/big-cats/ocelot.jpg"
+    }
+  },
+  {
+    "id": "serval",
+    "name": "Serval",
+    "fact": "Servals have the longest legs relative to body size of any cat, helping them see over tall savanna grass.",
+    "question": "What is the serval's hunting success rate?",
+    "options": ["About 20%", "About 50%", "About 70%", "About 90%"],
+    "answer": "About 50%",
+    "media": {
+      "image": "media/big-cats/serval.jpg"
+    }
+  },
+  {
+    "id": "clouded-leopard",
+    "name": "Clouded Leopard",
+    "fact": "Clouded leopards have the longest canine teeth relative to body size of any living cat.",
+    "question": "What unique ability do clouded leopards have?",
+    "options": ["They can roar", "They can climb down trees headfirst", "They can swim underwater", "They can change color"],
+    "answer": "They can climb down trees headfirst",
+    "media": {
+      "image": "media/big-cats/clouded-leopard.jpg"
+    }
+  },
+  {
+    "id": "black-panther",
+    "name": "Black Panther",
+    "fact": "Black panthers are not a separate species - they are leopards or jaguars with a genetic condition called melanism.",
+    "question": "Can you still see a black panther's spots?",
+    "options": ["No, they disappear completely", "Yes, in bright sunlight", "Only on their belly", "Only when they're young"],
+    "answer": "Yes, in bright sunlight",
+    "media": {
+      "image": "media/big-cats/black-panther.jpg",
+      "video": "media/videos/black-panther.mp4"
+    }
+  },
+  {
+    "id": "bobcat",
+    "name": "Bobcat",
+    "fact": "Bobcats get their name from their short, 'bobbed' tail which is only about 6 inches long.",
+    "question": "Where do bobcats live?",
+    "options": ["Only in forests", "Only in deserts", "Across North America in various habitats", "Only in mountains"],
+    "answer": "Across North America in various habitats",
+    "media": {
+      "image": "media/big-cats/bobcat.jpg"
+    }
+  },
+  {
+    "id": "margay",
+    "name": "Margay",
+    "fact": "Margays can rotate their ankles 180 degrees, allowing them to climb down trees headfirst like squirrels.",
+    "question": "What clever hunting technique do margays use?",
+    "options": ["Playing dead", "Mimicking baby monkey calls", "Digging traps", "Using tools"],
+    "answer": "Mimicking baby monkey calls",
+    "media": {
+      "image": "media/big-cats/margay.jpg"
+    }
+  },
+  {
+    "id": "fishing-cat",
+    "name": "Fishing Cat",
+    "fact": "Fishing cats have partially webbed feet and waterproof fur, making them excellent swimmers.",
+    "question": "How do fishing cats catch their prey?",
+    "options": ["With their tails", "By diving underwater", "By scooping fish with their paws", "With fishing nets"],
+    "answer": "By scooping fish with their paws",
+    "media": {
+      "image": "media/big-cats/fishing-cat.jpg"
+    }
+  },
+  {
+    "id": "pallas-cat",
+    "name": "Pallas's Cat",
+    "fact": "Pallas's cats have the longest and densest fur of any cat, with up to 9,000 hairs per square centimeter.",
+    "question": "Why do Pallas's cats have flat faces?",
+    "options": ["For digging", "To peek over rocks while hunting", "For better hearing", "To look cute"],
+    "answer": "To peek over rocks while hunting",
+    "media": {
+      "image": "media/big-cats/pallas-cat.jpg"
+    }
+  },
+  {
+    "id": "siberian-tiger",
+    "name": "Siberian Tiger",
+    "fact": "Siberian tigers are the largest of all tiger subspecies and can grow over 10 feet long.",
+    "question": "How do Siberian tigers survive harsh winters?",
+    "options": ["They hibernate", "They migrate south", "They grow extra thick fur", "They live in caves"],
+    "answer": "They grow extra thick fur",
+    "media": {
+      "image": "media/big-cats/siberian-tiger.jpg"
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "poison-dart-frog",
+    "name": "Poison Dart Frog",
+    "fact": "One golden poison dart frog has enough toxin to kill 10 grown men!",
+    "question": "Why are poison dart frogs so brightly colored?",
+    "options": ["To attract mates", "To warn predators they're poisonous", "For camouflage", "They're born that way randomly"],
+    "answer": "To warn predators they're poisonous",
+    "media": {
+      "image": "media/amphibians/poison-dart-frog.jpg"
+    }
+  },
+  {
+    "id": "axolotl",
+    "name": "Axolotl",
+    "fact": "Axolotls can regenerate entire limbs, parts of their brain, and even their heart!",
+    "question": "Where are axolotls originally from?",
+    "options": ["Amazon rainforest", "Australia", "Lake Xochimilco in Mexico", "Japan"],
+    "answer": "Lake Xochimilco in Mexico",
+    "media": {
+      "image": "media/amphibians/axolotl.jpg",
+      "video": "media/videos/axolotl.mp4"
+    }
+  },
+  {
+    "id": "red-eyed-tree-frog",
+    "name": "Red-Eyed Tree Frog",
+    "fact": "Red-eyed tree frogs flash their bright red eyes to startle predators - it's called 'startle coloration'.",
+    "question": "When are red-eyed tree frogs most active?",
+    "options": ["During the day", "At night", "Only when raining", "In winter"],
+    "answer": "At night",
+    "media": {
+      "image": "media/amphibians/red-eyed-tree-frog.jpg",
+      "video": "media/videos/tree-frog.mp4"
+    }
+  },
+  {
+    "id": "salamander",
+    "name": "Fire Salamander",
+    "fact": "Fire salamanders got their name because people thought they were born from flames when they crawled out of logs thrown on fires.",
+    "question": "How do fire salamanders defend themselves?",
+    "options": ["They bite", "They secrete poison from their skin", "They run fast", "They play dead"],
+    "answer": "They secrete poison from their skin",
+    "media": {
+      "image": "media/amphibians/fire-salamander.jpg",
+      "video": "media/videos/salamander.mp4"
+    }
+  },
+  {
+    "id": "bullfrog",
+    "name": "American Bullfrog",
+    "fact": "Bullfrogs can eat almost anything that fits in their mouth, including birds and mice!",
+    "question": "Why is it called a bullfrog?",
+    "options": ["It's as big as a bull", "Its call sounds like a bull", "It has horns", "It's very strong"],
+    "answer": "Its call sounds like a bull",
+    "media": {
+      "image": "media/amphibians/bullfrog.jpg",
+      "video": "media/videos/bullfrog.mp4",
+      "sound": "media/sounds/frog.mp3"
+    }
+  },
+  {
+    "id": "newt",
+    "name": "Eastern Newt",
+    "fact": "Eastern newts go through a unique 'red eft' stage where they live on land for 2-3 years before returning to water.",
+    "question": "What is the difference between newts and salamanders?",
+    "options": ["Newts are bigger", "Newts spend more time in water", "Newts can fly", "There is no difference"],
+    "answer": "Newts spend more time in water",
+    "media": {
+      "image": "media/amphibians/newt.jpg",
+      "video": "media/videos/newt.mp4"
+    }
+  },
+  {
+    "id": "cane-toad",
+    "name": "Cane Toad",
+    "fact": "Cane toads are one of the most invasive species in the world and can poison animals that try to eat them.",
+    "question": "How do cane toads produce their poison?",
+    "options": ["They eat poisonous plants", "From glands behind their eyes", "Through their saliva", "From their diet of insects"],
+    "answer": "From glands behind their eyes",
+    "media": {
+      "image": "media/amphibians/cane-toad.jpg"
+    }
+  },
+  {
+    "id": "glass-frog",
+    "name": "Glass Frog",
+    "fact": "Glass frogs have transparent skin on their belly - you can see their heart beating!",
+    "question": "Why do scientists think glass frogs are transparent?",
+    "options": ["To attract mates", "For camouflage", "To cool down", "It's a genetic mutation"],
+    "answer": "For camouflage",
+    "media": {
+      "image": "media/amphibians/glass-frog.jpg"
+    }
+  },
+  {
+    "id": "goliath-frog",
+    "name": "Goliath Frog",
+    "fact": "Goliath frogs are the largest frogs in the world, growing up to 12.5 inches long and weighing 7 pounds!",
+    "question": "Where do Goliath frogs live?",
+    "options": ["South America", "Australia", "Central Africa", "Southeast Asia"],
+    "answer": "Central Africa",
+    "media": {
+      "image": "media/amphibians/goliath-frog.jpg"
+    }
+  },
+  {
+    "id": "caecilian",
+    "name": "Caecilian",
+    "fact": "Caecilians are legless amphibians that look like worms or snakes and live underground.",
+    "question": "What sense do caecilians rely on most?",
+    "options": ["Sight", "Hearing", "Touch and smell", "Taste"],
+    "answer": "Touch and smell",
+    "media": {
+      "image": "media/amphibians/caecilian.jpg"
+    }
+  },
+  {
+    "id": "mudpuppy",
+    "name": "Mudpuppy",
+    "fact": "Mudpuppies keep their feathery external gills their entire lives - they never fully grow up!",
+    "question": "What is special about mudpuppies compared to most salamanders?",
+    "options": ["They can fly", "They keep their gills forever", "They're venomous", "They live in deserts"],
+    "answer": "They keep their gills forever",
+    "media": {
+      "image": "media/amphibians/mudpuppy.jpg"
+    }
+  },
+  {
+    "id": "surinam-toad",
+    "name": "Surinam Toad",
+    "fact": "Female Surinam toads carry their eggs embedded in the skin of their back until babies pop out!",
+    "question": "What shape is a Surinam toad's body?",
+    "options": ["Round like a ball", "Flat like a pancake", "Long like a snake", "Cube-shaped"],
+    "answer": "Flat like a pancake",
+    "media": {
+      "image": "media/amphibians/surinam-toad.jpg"
+    }
+  },
+  {
+    "id": "hellbender",
+    "name": "Hellbender",
+    "fact": "Hellbenders are the largest salamanders in North America, growing up to 2 feet long!",
+    "question": "What nickname do hellbenders have due to their wrinkly skin?",
+    "options": ["Old Man of the River", "Snot Otter", "Wrinkle Monster", "River Dragon"],
+    "answer": "Snot Otter",
+    "media": {
+      "image": "media/amphibians/hellbender.jpg"
+    }
+  },
+  {
+    "id": "japanese-giant-salamander",
+    "name": "Japanese Giant Salamander",
+    "fact": "Japanese giant salamanders can live over 50 years and grow up to 5 feet long!",
+    "question": "What do Japanese giant salamanders mainly eat?",
+    "options": ["Plants", "Fish and crustaceans", "Insects only", "Other salamanders"],
+    "answer": "Fish and crustaceans",
+    "media": {
+      "image": "media/amphibians/japanese-giant-salamander.jpg"
+    }
+  },
+  {
+    "id": "tomato-frog",
+    "name": "Tomato Frog",
+    "fact": "When threatened, tomato frogs puff up their body and secrete a sticky white substance that can cause allergic reactions.",
+    "question": "Why is it called a tomato frog?",
+    "options": ["It eats tomatoes", "It smells like tomatoes", "Its bright red color", "It lives near tomato plants"],
+    "answer": "Its bright red color",
+    "media": {
+      "image": "media/amphibians/tomato-frog.jpg"
+    }
+  },
+  {
+    "id": "spring-peeper",
+    "name": "Spring Peeper",
+    "fact": "Spring peepers are tiny frogs whose loud chorus is one of the first signs of spring!",
+    "question": "How big is an adult spring peeper?",
+    "options": ["About 6 inches", "About 3 inches", "About 1 inch", "About 5 inches"],
+    "answer": "About 1 inch",
+    "media": {
+      "image": "media/amphibians/spring-peeper.jpg"
+    }
+  },
+  {
+    "id": "alpine-newt",
+    "name": "Alpine Newt",
+    "fact": "Male alpine newts develop bright blue coloring and an impressive crest during mating season.",
+    "question": "Where do alpine newts prefer to live?",
+    "options": ["Deserts", "Tropical rainforests", "Cool mountain forests", "Open grasslands"],
+    "answer": "Cool mountain forests",
+    "media": {
+      "image": "media/amphibians/alpine-newt.jpg"
+    }
+  },
+  {
+    "id": "olm",
+    "name": "Olm",
+    "fact": "Olms are blind cave salamanders that can survive up to 10 years without food!",
+    "question": "What color are olms?",
+    "options": ["Bright green", "Dark brown", "Pink or white", "Blue"],
+    "answer": "Pink or white",
+    "media": {
+      "image": "media/amphibians/olm.jpg"
+    }
+  }
+]

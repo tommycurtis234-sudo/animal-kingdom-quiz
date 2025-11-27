@@ -1,0 +1,228 @@
+[
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "fact": "Chameleons can move their eyes independently to look in two directions at once.",
+    "question": "Why do chameleons change color?",
+    "options": ["To blend in", "To communicate", "To regulate temperature", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/reptiles/chameleon.jpg",
+      "video": "media/videos/chameleon.mp4"
+    }
+  },
+  {
+    "id": "crocodile",
+    "name": "Saltwater Crocodile",
+    "fact": "Saltwater crocodiles have the strongest bite force of any animal.",
+    "question": "How long can crocodiles hold their breath underwater?",
+    "options": ["5-10 minutes", "15-30 minutes", "1-2 hours", "3-4 hours"],
+    "answer": "1-2 hours",
+    "media": {
+      "image": "media/reptiles/crocodile.jpg",
+      "video": "media/videos/crocodile_near_water.mp4"
+    }
+  },
+  {
+    "id": "turtle",
+    "name": "Sea Turtle",
+    "fact": "Sea turtles can live for over 100 years.",
+    "question": "How do sea turtles navigate across oceans?",
+    "options": ["Following the sun", "Using Earth's magnetic field", "Following currents", "Random swimming"],
+    "answer": "Using Earth's magnetic field",
+    "media": {
+      "image": "media/reptiles/turtle.jpg",
+      "video": "media/videos/sea_turtle_swimming.mp4"
+    }
+  },
+  {
+    "id": "snake",
+    "name": "Python",
+    "fact": "Pythons can go months without eating after a large meal.",
+    "question": "How do pythons kill their prey?",
+    "options": ["Venom", "Constriction", "Biting", "Poison"],
+    "answer": "Constriction",
+    "media": {
+      "image": "media/reptiles/snake.jpg"
+    }
+  },
+  {
+    "id": "gecko",
+    "name": "Gecko",
+    "fact": "Geckos can walk on walls and ceilings using special toe pads.",
+    "question": "What allows geckos to climb smooth surfaces?",
+    "options": ["Sticky substance", "Suction cups", "Tiny hair-like structures", "Claws"],
+    "answer": "Tiny hair-like structures",
+    "media": {
+      "image": "media/reptiles/gecko.jpg"
+    }
+  },
+  {
+    "id": "iguana",
+    "name": "Green Iguana",
+    "fact": "Iguanas can detach their tails to escape predators and grow them back.",
+    "question": "What do iguanas primarily eat?",
+    "options": ["Insects", "Small animals", "Plants and leaves", "Fish"],
+    "answer": "Plants and leaves",
+    "media": {
+      "image": "media/reptiles/iguana.jpg"
+    }
+  },
+  {
+    "id": "komodo",
+    "name": "Komodo Dragon",
+    "fact": "Komodo dragons are the largest living lizards, growing up to 10 feet long.",
+    "question": "What makes Komodo dragons dangerous hunters?",
+    "options": ["Speed", "Venomous bite", "Sharp claws", "Camouflage"],
+    "answer": "Venomous bite",
+    "media": {
+      "image": "media/reptiles/komodo.jpg",
+      "video": "media/videos/komodo-dragon.mp4"
+    }
+  },
+  {
+    "id": "alligator",
+    "name": "American Alligator",
+    "fact": "Alligators can go through 3,000 teeth in a lifetime.",
+    "question": "How can you tell an alligator from a crocodile?",
+    "options": ["Snout shape", "Size", "Color", "Habitat"],
+    "answer": "Snout shape",
+    "media": {
+      "image": "media/reptiles/alligator.jpg"
+    }
+  },
+  {
+    "id": "cobra",
+    "name": "King Cobra",
+    "fact": "King cobras can raise up to one-third of their body off the ground when threatened!",
+    "question": "What is unique about king cobra venom?",
+    "options": ["It's not venomous", "It can kill an elephant", "It's a cure for diseases", "It's harmless to humans"],
+    "answer": "It can kill an elephant",
+    "media": {
+      "image": "media/reptiles/cobra.jpg",
+      "video": "media/videos/cobra.mp4"
+    }
+  },
+  {
+    "id": "tortoise",
+    "name": "Giant Tortoise",
+    "fact": "Giant tortoises can live over 150 years - some alive today were born before cars were invented!",
+    "question": "What is the difference between a turtle and a tortoise?",
+    "options": ["Size", "Tortoises live on land", "Shell shape", "There is no difference"],
+    "answer": "Tortoises live on land",
+    "media": {
+      "image": "media/reptiles/tortoise.jpg"
+    }
+  },
+  {
+    "id": "rattlesnake",
+    "name": "Rattlesnake",
+    "fact": "A rattlesnake's rattle is made of keratin - the same material as your fingernails!",
+    "question": "Why do rattlesnakes rattle their tails?",
+    "options": ["To attract prey", "To warn predators", "To communicate with other snakes", "For fun"],
+    "answer": "To warn predators",
+    "media": {
+      "image": "media/reptiles/rattlesnake.jpg"
+    }
+  },
+  {
+    "id": "bearded-dragon",
+    "name": "Bearded Dragon",
+    "fact": "Bearded dragons wave their arms to show submission to larger dragons!",
+    "question": "Why is it called a bearded dragon?",
+    "options": ["It has actual hair", "Its spiky throat puffs out like a beard", "It makes beard-like sounds", "It was discovered by a man with a beard"],
+    "answer": "Its spiky throat puffs out like a beard",
+    "media": {
+      "image": "media/reptiles/bearded-dragon.jpg",
+      "video": "media/videos/bearded-dragon.mp4"
+    }
+  },
+  {
+    "id": "gila-monster",
+    "name": "Gila Monster",
+    "fact": "Gila monsters are one of only two venomous lizards in North America!",
+    "question": "How do Gila monsters deliver their venom?",
+    "options": ["Spitting", "Biting and chewing", "Through their tail", "Through their claws"],
+    "answer": "Biting and chewing",
+    "media": {
+      "image": "media/reptiles/gila-monster.jpg"
+    }
+  },
+  {
+    "id": "anaconda",
+    "name": "Green Anaconda",
+    "fact": "Green anacondas are the heaviest snakes in the world, weighing up to 550 pounds!",
+    "question": "How do anacondas catch their prey?",
+    "options": ["Chasing on land", "Ambushing in water", "Dropping from trees", "Using venom"],
+    "answer": "Ambushing in water",
+    "media": {
+      "image": "media/reptiles/anaconda.jpg"
+    }
+  },
+  {
+    "id": "leatherback-turtle",
+    "name": "Leatherback Sea Turtle",
+    "fact": "Leatherback turtles are the largest turtles in the world and can dive deeper than 4,000 feet!",
+    "question": "What is unique about a leatherback's shell?",
+    "options": ["It's the hardest", "It's soft and leathery", "It can change color", "It has spikes"],
+    "answer": "It's soft and leathery",
+    "media": {
+      "image": "media/reptiles/leatherback-turtle.jpg"
+    }
+  },
+  {
+    "id": "tuatara",
+    "name": "Tuatara",
+    "fact": "Tuataras are 'living fossils' - their ancestors lived alongside dinosaurs 200 million years ago!",
+    "question": "Where are tuataras found in the wild?",
+    "options": ["Australia", "New Zealand", "Madagascar", "Indonesia"],
+    "answer": "New Zealand",
+    "media": {
+      "image": "media/reptiles/tuatara.jpg"
+    }
+  },
+  {
+    "id": "frilled-lizard",
+    "name": "Frilled Lizard",
+    "fact": "Frilled lizards can run on their hind legs when escaping predators!",
+    "question": "What does a frilled lizard do when threatened?",
+    "options": ["Plays dead", "Opens its frill and hisses", "Buries itself", "Spits venom"],
+    "answer": "Opens its frill and hisses",
+    "media": {
+      "image": "media/reptiles/frilled-lizard.jpg"
+    }
+  },
+  {
+    "id": "gharial",
+    "name": "Gharial",
+    "fact": "Gharials have over 100 teeth but they only eat fish!",
+    "question": "What makes gharials different from other crocodilians?",
+    "options": ["They're smaller", "Their long, thin snout", "They can fly", "They live in trees"],
+    "answer": "Their long, thin snout",
+    "media": {
+      "image": "media/reptiles/gharial.jpg"
+    }
+  },
+  {
+    "id": "box-turtle",
+    "name": "Box Turtle",
+    "fact": "Box turtles can completely close their shell like a box - no other turtle can do this!",
+    "question": "How long can box turtles live?",
+    "options": ["10-20 years", "30-40 years", "50-100 years", "Over 100 years"],
+    "answer": "Over 100 years",
+    "media": {
+      "image": "media/reptiles/box-turtle.jpg"
+    }
+  },
+  {
+    "id": "monitor-lizard",
+    "name": "Monitor Lizard",
+    "fact": "Monitor lizards are highly intelligent and can count up to six!",
+    "question": "What family of lizards do monitors belong to?",
+    "options": ["Iguanidae", "Varanidae", "Gekkonidae", "Chamaeleonidae"],
+    "answer": "Varanidae",
+    "media": {
+      "image": "media/reptiles/monitor-lizard.jpg"
+    }
+  }
+]

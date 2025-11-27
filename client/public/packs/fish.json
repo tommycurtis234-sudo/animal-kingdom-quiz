@@ -1,0 +1,205 @@
+[
+  {
+    "id": "clownfish",
+    "name": "Clownfish",
+    "fact": "Clownfish live among sea anemones, which protect them from predators with stinging tentacles.",
+    "question": "What protects clownfish from anemone stings?",
+    "options": ["Thick scales", "A special mucus coating", "Speed", "Camouflage"],
+    "answer": "A special mucus coating",
+    "media": {
+      "image": "media/fish/clownfish.jpg",
+      "video": "media/videos/clownfish.mp4"
+    }
+  },
+  {
+    "id": "great-white-shark",
+    "name": "Great White Shark",
+    "fact": "Great white sharks can detect a single drop of blood in 25 gallons of water.",
+    "question": "How many teeth can a great white shark have at once?",
+    "options": ["50", "150", "300", "Up to 3,000"],
+    "answer": "Up to 3,000",
+    "media": {
+      "image": "media/fish/great-white-shark.jpg",
+      "video": "media/videos/great_white_shark.mp4"
+    }
+  },
+  {
+    "id": "seahorse",
+    "name": "Seahorse",
+    "fact": "Seahorses are the only animals where the male gives birth to babies.",
+    "question": "How do seahorses swim?",
+    "options": ["By flapping their tails", "By using a small dorsal fin", "By jet propulsion", "They don't swim"],
+    "answer": "By using a small dorsal fin",
+    "media": {
+      "image": "media/fish/seahorse.jpg",
+      "video": "media/videos/seahorse.mp4"
+    }
+  },
+  {
+    "id": "pufferfish",
+    "name": "Pufferfish",
+    "fact": "Pufferfish contain a toxin 1,200 times more poisonous than cyanide.",
+    "question": "How do pufferfish defend themselves?",
+    "options": ["They swim very fast", "They inflate their bodies", "They change color", "They release ink"],
+    "answer": "They inflate their bodies",
+    "media": {
+      "image": "media/fish/pufferfish.jpg"
+    }
+  },
+  {
+    "id": "anglerfish",
+    "name": "Anglerfish",
+    "fact": "Female anglerfish have a glowing lure on their head to attract prey in the dark ocean.",
+    "question": "Where do anglerfish typically live?",
+    "options": ["Coral reefs", "Deep ocean", "Rivers", "Tide pools"],
+    "answer": "Deep ocean",
+    "media": {
+      "image": "media/fish/anglerfish.jpg"
+    }
+  },
+  {
+    "id": "goldfish",
+    "name": "Goldfish",
+    "fact": "Goldfish can remember things for at least 5 months, not just 3 seconds!",
+    "question": "How long can a goldfish live with proper care?",
+    "options": ["1-2 years", "5-10 years", "10-15 years", "Over 20 years"],
+    "answer": "Over 20 years",
+    "media": {
+      "image": "media/fish/goldfish.jpg"
+    }
+  },
+  {
+    "id": "manta-ray",
+    "name": "Manta Ray",
+    "fact": "Manta rays have the largest brain of any fish and can recognize themselves in mirrors.",
+    "question": "What do manta rays eat?",
+    "options": ["Large fish", "Plankton and small fish", "Seaweed", "Crabs"],
+    "answer": "Plankton and small fish",
+    "media": {
+      "image": "media/fish/manta-ray.jpg",
+      "video": "media/videos/manta-ray.mp4"
+    }
+  },
+  {
+    "id": "electric-eel",
+    "name": "Electric Eel",
+    "fact": "Electric eels can produce shocks of up to 860 volts - enough to stun a horse!",
+    "question": "Is an electric eel actually an eel?",
+    "options": ["Yes, it's a true eel", "No, it's a type of knifefish", "It's a snake", "It's a catfish"],
+    "answer": "No, it's a type of knifefish",
+    "media": {
+      "image": "media/fish/electric-eel.jpg"
+    }
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "fact": "Salmon can jump up to 12 feet high to get over obstacles during migration.",
+    "question": "Where do salmon return to lay their eggs?",
+    "options": ["The ocean", "The stream where they were born", "Any freshwater lake", "Tropical waters"],
+    "answer": "The stream where they were born",
+    "media": {
+      "image": "media/fish/salmon.jpg"
+    }
+  },
+  {
+    "id": "flying-fish",
+    "name": "Flying Fish",
+    "fact": "Flying fish can glide through the air for over 600 feet to escape predators.",
+    "question": "How do flying fish 'fly'?",
+    "options": ["They flap their fins like wings", "They glide using enlarged pectoral fins", "They use jet propulsion", "They bounce on the water"],
+    "answer": "They glide using enlarged pectoral fins",
+    "media": {
+      "image": "media/fish/flying-fish.jpg"
+    }
+  },
+  {
+    "id": "lionfish",
+    "name": "Lionfish",
+    "fact": "Lionfish have venomous spines that can cause extreme pain to humans.",
+    "question": "Why are lionfish considered a problem in the Atlantic Ocean?",
+    "options": ["They're too small", "They're an invasive species", "They eat too much plankton", "They're endangered"],
+    "answer": "They're an invasive species",
+    "media": {
+      "image": "media/fish/lionfish.jpg"
+    }
+  },
+  {
+    "id": "betta-fish",
+    "name": "Betta Fish",
+    "fact": "Male betta fish are very territorial and will fight other males - that's why they're called Siamese fighting fish.",
+    "question": "How do betta fish breathe?",
+    "options": ["Gills only", "Lungs only", "Both gills and a labyrinth organ", "Through their skin"],
+    "answer": "Both gills and a labyrinth organ",
+    "media": {
+      "image": "media/fish/betta-fish.jpg",
+      "video": "media/videos/betta.mp4"
+    }
+  },
+  {
+    "id": "whale-shark",
+    "name": "Whale Shark",
+    "fact": "Whale sharks are the largest fish in the ocean, growing up to 40 feet long!",
+    "question": "What do whale sharks eat despite their huge size?",
+    "options": ["Whales", "Large fish", "Plankton and small fish", "Seals"],
+    "answer": "Plankton and small fish",
+    "media": {
+      "image": "media/fish/whale-shark.jpg"
+    }
+  },
+  {
+    "id": "swordfish",
+    "name": "Swordfish",
+    "fact": "Swordfish can swim at speeds up to 60 mph, making them one of the fastest fish.",
+    "question": "What is the swordfish's 'sword' used for?",
+    "options": ["Fighting predators", "Slashing prey to stun them", "Attracting mates", "Digging in sand"],
+    "answer": "Slashing prey to stun them",
+    "media": {
+      "image": "media/fish/swordfish.jpg"
+    }
+  },
+  {
+    "id": "barracuda",
+    "name": "Barracuda",
+    "fact": "Barracudas have razor-sharp teeth and can burst up to 27 mph when attacking.",
+    "question": "Why are barracudas attracted to shiny objects?",
+    "options": ["They collect treasures", "They think it's prey", "To scare predators", "For mating displays"],
+    "answer": "They think it's prey",
+    "media": {
+      "image": "media/fish/barracuda.jpg"
+    }
+  },
+  {
+    "id": "tuna",
+    "name": "Bluefin Tuna",
+    "fact": "Bluefin tuna can retract their fins into their body to swim faster.",
+    "question": "How fast can bluefin tuna swim?",
+    "options": ["10 mph", "25 mph", "Up to 45 mph", "60 mph"],
+    "answer": "Up to 45 mph",
+    "media": {
+      "image": "media/fish/tuna.jpg"
+    }
+  },
+  {
+    "id": "hammerhead-shark",
+    "name": "Hammerhead Shark",
+    "fact": "A hammerhead's wide head gives it 360-degree vision - it can see above and below at the same time!",
+    "question": "Why is the hammerhead shark's head shaped like a hammer?",
+    "options": ["To swim faster", "For better sensory detection", "To attract mates", "To dig in sand"],
+    "answer": "For better sensory detection",
+    "media": {
+      "image": "media/fish/hammerhead-shark.jpg"
+    }
+  },
+  {
+    "id": "ocean-sunfish",
+    "name": "Ocean Sunfish",
+    "fact": "The ocean sunfish is the heaviest bony fish, weighing up to 5,000 pounds!",
+    "question": "What is another name for the ocean sunfish?",
+    "options": ["Moonfish", "Mola mola", "Starfish", "Sunray"],
+    "answer": "Mola mola",
+    "media": {
+      "image": "media/fish/ocean-sunfish.jpg"
+    }
+  }
+]

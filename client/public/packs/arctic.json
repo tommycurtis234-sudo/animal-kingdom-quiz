@@ -1,0 +1,206 @@
+[
+  {
+    "id": "polar-bear",
+    "name": "Polar Bear",
+    "fact": "Polar bears have black skin under their white fur to absorb heat from the sun.",
+    "question": "What color is a polar bear's fur actually?",
+    "options": ["White", "Clear/transparent", "Yellow", "Gray"],
+    "answer": "Clear/transparent",
+    "media": {
+      "image": "media/arctic/polar-bear.jpg",
+      "video": "media/videos/polar-bear.mp4"
+    }
+  },
+  {
+    "id": "emperor-penguin",
+    "name": "Emperor Penguin",
+    "fact": "Emperor penguins can dive deeper than any other bird, reaching depths of 1,800 feet.",
+    "question": "How do emperor penguin fathers keep their eggs warm?",
+    "options": ["In a nest", "Under their belly flap", "Buried in snow", "In a group huddle only"],
+    "answer": "Under their belly flap",
+    "media": {
+      "image": "media/arctic/emperor-penguin.jpg",
+      "video": "media/videos/emperor-penguin.mp4"
+    }
+  },
+  {
+    "id": "arctic-fox",
+    "name": "Arctic Fox",
+    "fact": "Arctic foxes change color with the seasons - white in winter and brown in summer.",
+    "question": "How do arctic foxes survive temperatures of -50°F?",
+    "options": ["They hibernate", "Their thick fur and compact body", "They live underground year-round", "They migrate south"],
+    "answer": "Their thick fur and compact body",
+    "media": {
+      "image": "media/arctic/arctic-fox.jpg",
+      "video": "media/videos/arctic-fox.mp4"
+    }
+  },
+  {
+    "id": "walrus",
+    "name": "Walrus",
+    "fact": "Walrus tusks can grow up to 3 feet long and are used for hauling themselves onto ice.",
+    "question": "What are walrus tusks actually made of?",
+    "options": ["Bone", "Ivory (elongated canine teeth)", "Keratin like fingernails", "Cartilage"],
+    "answer": "Ivory (elongated canine teeth)",
+    "media": {
+      "image": "media/arctic/walrus.jpg",
+      "video": "media/videos/walrus.mp4"
+    }
+  },
+  {
+    "id": "snowy-owl",
+    "name": "Snowy Owl",
+    "fact": "Snowy owls are one of the few owl species that hunt during the day.",
+    "question": "Why are snowy owls white?",
+    "options": ["To stay warm", "For camouflage in snow", "To attract mates", "It's just genetics"],
+    "answer": "For camouflage in snow",
+    "media": {
+      "image": "media/arctic/snowy-owl.jpg",
+      "video": "media/videos/snowy-owl.mp4"
+    }
+  },
+  {
+    "id": "narwhal",
+    "name": "Narwhal",
+    "fact": "A narwhal's tusk is actually a tooth that can grow up to 10 feet long and contains millions of nerve endings.",
+    "question": "What is a narwhal's tusk used for?",
+    "options": ["Fighting", "Sensing changes in the environment", "Breaking ice", "All of these"],
+    "answer": "All of these",
+    "media": {
+      "image": "media/arctic/narwhal.jpg",
+      "video": "media/videos/narwhal.mp4"
+    }
+  },
+  {
+    "id": "harp-seal",
+    "name": "Harp Seal",
+    "fact": "Harp seal pups are born with fluffy white fur but turn gray within a few weeks.",
+    "question": "How long can harp seals hold their breath underwater?",
+    "options": ["5 minutes", "15 minutes", "30 minutes", "1 hour"],
+    "answer": "15 minutes",
+    "media": {
+      "image": "media/arctic/harp-seal.jpg"
+    }
+  },
+  {
+    "id": "reindeer",
+    "name": "Reindeer",
+    "fact": "Reindeer are the only deer species where both males and females grow antlers.",
+    "question": "What special ability do reindeer eyes have?",
+    "options": ["Night vision", "They change color with seasons", "X-ray vision", "360-degree vision"],
+    "answer": "They change color with seasons",
+    "media": {
+      "image": "media/arctic/reindeer.jpg"
+    }
+  },
+  {
+    "id": "musk-ox",
+    "name": "Musk Ox",
+    "fact": "Musk oxen have been around since the Ice Age and have the longest hair of any animal.",
+    "question": "How do musk oxen protect their young from predators?",
+    "options": ["They run away", "They form a circle facing outward", "They hide them underground", "They attack immediately"],
+    "answer": "They form a circle facing outward",
+    "media": {
+      "image": "media/arctic/musk-ox.jpg"
+    }
+  },
+  {
+    "id": "arctic-hare",
+    "name": "Arctic Hare",
+    "fact": "Arctic hares can run up to 40 mph and sometimes hop on their hind legs like kangaroos.",
+    "question": "How do arctic hares stay warm in extreme cold?",
+    "options": ["They hibernate", "Short ears and thick fur reduce heat loss", "They burrow deep underground", "They huddle together constantly"],
+    "answer": "Short ears and thick fur reduce heat loss",
+    "media": {
+      "image": "media/arctic/arctic-hare.jpg"
+    }
+  },
+  {
+    "id": "beluga",
+    "name": "Beluga Whale",
+    "fact": "Belugas are called 'canaries of the sea' because they make chirps, clicks, and whistles.",
+    "question": "What can belugas do that most whales cannot?",
+    "options": ["Swim backwards", "Turn their head from side to side", "Jump out of water", "Breathe underwater"],
+    "answer": "Turn their head from side to side",
+    "media": {
+      "image": "media/arctic/beluga.jpg"
+    }
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "fact": "Orcas are actually the largest members of the dolphin family, not true whales.",
+    "question": "Why are orcas called 'killer whales'?",
+    "options": ["They attack humans", "They hunt other whales", "Their speed", "Their black color"],
+    "answer": "They hunt other whales",
+    "media": {
+      "image": "media/arctic/orca.jpg"
+    }
+  },
+  {
+    "id": "puffin",
+    "name": "Atlantic Puffin",
+    "fact": "Puffins can carry up to 60 fish in their beaks at once thanks to their unique beak design.",
+    "question": "What happens to a puffin's colorful beak in winter?",
+    "options": ["Nothing", "It falls off and regrows", "It becomes duller gray", "It gets even more colorful"],
+    "answer": "It becomes duller gray",
+    "media": {
+      "image": "media/arctic/puffin.jpg"
+    }
+  },
+  {
+    "id": "wolverine",
+    "name": "Wolverine",
+    "fact": "Wolverines are incredibly strong for their size and have been known to drive bears away from their kills.",
+    "question": "What are wolverine feet specially adapted for?",
+    "options": ["Climbing trees", "Walking on snow like snowshoes", "Swimming", "Digging through ice"],
+    "answer": "Walking on snow like snowshoes",
+    "media": {
+      "image": "media/arctic/wolverine.jpg"
+    }
+  },
+  {
+    "id": "arctic-wolf",
+    "name": "Arctic Wolf",
+    "fact": "Arctic wolves can survive in temperatures as low as -30°F and go weeks without food.",
+    "question": "What color are arctic wolf pups when born?",
+    "options": ["White", "Gray", "Black", "Brown"],
+    "answer": "Gray",
+    "media": {
+      "image": "media/arctic/arctic-wolf.jpg"
+    }
+  },
+  {
+    "id": "lemming",
+    "name": "Lemming",
+    "fact": "Lemmings are important prey for many arctic predators and their population cycles affect entire ecosystems.",
+    "question": "What is NOT true about lemmings?",
+    "options": ["They live in burrows", "They mass-suicide by jumping off cliffs", "They can swim", "They're active in winter"],
+    "answer": "They mass-suicide by jumping off cliffs",
+    "media": {
+      "image": "media/arctic/lemming.jpg"
+    }
+  },
+  {
+    "id": "leopard-seal",
+    "name": "Leopard Seal",
+    "fact": "Leopard seals are the only seals known to regularly hunt warm-blooded prey, including penguins.",
+    "question": "How did leopard seals get their name?",
+    "options": ["They're fast like leopards", "Their spotted coat pattern", "They roar like leopards", "They hunt in packs"],
+    "answer": "Their spotted coat pattern",
+    "media": {
+      "image": "media/arctic/leopard-seal.jpg"
+    }
+  },
+  {
+    "id": "ermine",
+    "name": "Ermine (Stoat)",
+    "fact": "Ermines turn completely white in winter except for the black tip of their tail.",
+    "question": "Why does an ermine keep its black tail tip in winter?",
+    "options": ["It can't change color there", "To confuse predators", "For warmth", "To attract mates"],
+    "answer": "To confuse predators",
+    "media": {
+      "image": "media/arctic/ermine.jpg"
+    }
+  }
+]

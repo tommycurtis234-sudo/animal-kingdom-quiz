@@ -1,0 +1,229 @@
+[
+  {
+    "id": "eagle",
+    "name": "Bald Eagle",
+    "fact": "Bald eagles can see four to seven times farther than humans.",
+    "question": "What is the wingspan of a bald eagle?",
+    "options": ["3-4 feet", "5-6 feet", "6-8 feet", "9-10 feet"],
+    "answer": "6-8 feet",
+    "media": {
+      "image": "media/birds/eagle.jpg",
+      "video": "media/videos/bald_eagle_soaring.mp4"
+    }
+  },
+  {
+    "id": "parrot",
+    "name": "Macaw Parrot",
+    "fact": "Macaws can live up to 80 years in captivity.",
+    "question": "What makes parrots able to mimic human speech?",
+    "options": ["Large brain", "Special vocal organ", "Tongue structure", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/birds/parrot.jpg",
+      "video": "media/videos/colorful_parrot_on_branch.mp4"
+    }
+  },
+  {
+    "id": "penguin",
+    "name": "Emperor Penguin",
+    "fact": "Emperor penguins can dive deeper than 1,800 feet and hold their breath for over 20 minutes.",
+    "question": "Where do emperor penguins live?",
+    "options": ["North Pole", "Antarctica", "Greenland", "Alaska"],
+    "answer": "Antarctica",
+    "media": {
+      "image": "media/birds/penguin.jpg"
+    }
+  },
+  {
+    "id": "owl",
+    "name": "Great Horned Owl",
+    "fact": "Owls can rotate their heads up to 270 degrees in either direction.",
+    "question": "Why are owls such effective hunters at night?",
+    "options": ["Excellent hearing", "Silent flight", "Night vision", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/birds/owl.jpg",
+      "video": "media/videos/owl.mp4",
+      "sound": "media/sounds/owl.mp3"
+    }
+  },
+  {
+    "id": "hummingbird",
+    "name": "Hummingbird",
+    "fact": "Hummingbirds can beat their wings up to 80 times per second.",
+    "question": "What is unique about hummingbird flight?",
+    "options": ["They can fly backwards", "They can hover", "They can fly upside down", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/birds/hummingbird.jpg",
+      "video": "media/videos/hummingbird.mp4"
+    }
+  },
+  {
+    "id": "flamingo",
+    "name": "Flamingo",
+    "fact": "Flamingos get their pink color from the food they eat.",
+    "question": "What do flamingos eat?",
+    "options": ["Fish", "Algae and shrimp", "Seeds", "Insects"],
+    "answer": "Algae and shrimp",
+    "media": {
+      "image": "media/birds/flamingo.jpg",
+      "video": "media/videos/flamingo.mp4"
+    }
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "fact": "A peacock's tail can have up to 200 colorful feathers.",
+    "question": "Why do male peacocks display their tail feathers?",
+    "options": ["To scare predators", "To attract mates", "To show dominance", "To regulate temperature"],
+    "answer": "To attract mates",
+    "media": {
+      "image": "media/birds/peacock.jpg",
+      "video": "media/videos/peacock.mp4"
+    }
+  },
+  {
+    "id": "ostrich",
+    "name": "Ostrich",
+    "fact": "Ostriches are the largest and heaviest birds in the world.",
+    "question": "How fast can an ostrich run?",
+    "options": ["25 mph", "35 mph", "45 mph", "55 mph"],
+    "answer": "45 mph",
+    "media": {
+      "image": "media/birds/ostrich.jpg"
+    }
+  },
+  {
+    "id": "toucan",
+    "name": "Toucan",
+    "fact": "A toucan's colorful bill can be up to half the length of its body!",
+    "question": "What is the toucan's large bill mainly used for?",
+    "options": ["Fighting", "Regulating body temperature", "Digging", "Making loud calls"],
+    "answer": "Regulating body temperature",
+    "media": {
+      "image": "media/birds/toucan.jpg"
+    }
+  },
+  {
+    "id": "pelican",
+    "name": "Pelican",
+    "fact": "A pelican's pouch can hold up to 3 gallons of water!",
+    "question": "How do pelicans catch fish?",
+    "options": ["Diving from the air", "Scooping with their pouch", "Chasing underwater", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/birds/pelican.jpg"
+    }
+  },
+  {
+    "id": "crow",
+    "name": "Crow",
+    "fact": "Crows can recognize human faces and hold grudges for years!",
+    "question": "What tool-using behavior are crows known for?",
+    "options": ["Building nests", "Using sticks to get food", "Breaking nuts with rocks", "All of the above"],
+    "answer": "Using sticks to get food",
+    "media": {
+      "image": "media/birds/crow.jpg"
+    }
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "fact": "Kiwis are the only birds with nostrils at the tip of their beak!",
+    "question": "Can kiwi birds fly?",
+    "options": ["Yes, they fly short distances", "No, they are flightless", "Only when young", "Only during mating season"],
+    "answer": "No, they are flightless",
+    "media": {
+      "image": "media/birds/kiwi.jpg"
+    }
+  },
+  {
+    "id": "cardinal",
+    "name": "Northern Cardinal",
+    "fact": "Cardinals are one of the few bird species where both males and females sing!",
+    "question": "Why are male cardinals bright red?",
+    "options": ["To blend in with flowers", "To attract females", "To scare predators", "It's random"],
+    "answer": "To attract females",
+    "media": {
+      "image": "media/birds/cardinal.jpg"
+    }
+  },
+  {
+    "id": "woodpecker",
+    "name": "Woodpecker",
+    "fact": "Woodpeckers can peck up to 20 times per second without getting a headache!",
+    "question": "How do woodpeckers protect their brain while pecking?",
+    "options": ["Thick skull", "Spongy bone", "Special tongue", "All of the above"],
+    "answer": "All of the above",
+    "media": {
+      "image": "media/birds/woodpecker.jpg"
+    }
+  },
+  {
+    "id": "swan",
+    "name": "Swan",
+    "fact": "Swans can form lifelong partnerships with their mates.",
+    "question": "What is a group of swans called?",
+    "options": ["Flock", "Bevy", "Murder", "Parliament"],
+    "answer": "Bevy",
+    "media": {
+      "image": "media/birds/swan.jpg"
+    }
+  },
+  {
+    "id": "albatross",
+    "name": "Albatross",
+    "fact": "Albatrosses can fly for years without landing, sleeping while gliding!",
+    "question": "What is the wingspan of the wandering albatross?",
+    "options": ["6 feet", "8 feet", "10 feet", "Up to 12 feet"],
+    "answer": "Up to 12 feet",
+    "media": {
+      "image": "media/birds/albatross.jpg"
+    }
+  },
+  {
+    "id": "kingfisher",
+    "name": "Kingfisher",
+    "fact": "Japan's bullet train was designed based on the kingfisher's beak shape to reduce noise!",
+    "question": "How do kingfishers catch fish?",
+    "options": ["Swimming underwater", "Diving headfirst from a perch", "Wading in shallow water", "Using their feet"],
+    "answer": "Diving headfirst from a perch",
+    "media": {
+      "image": "media/birds/kingfisher.jpg"
+    }
+  },
+  {
+    "id": "robin",
+    "name": "American Robin",
+    "fact": "Robins can hear worms moving underground!",
+    "question": "What is the robin often considered a sign of?",
+    "options": ["Winter", "Spring", "Summer", "Fall"],
+    "answer": "Spring",
+    "media": {
+      "image": "media/birds/robin.jpg"
+    }
+  },
+  {
+    "id": "falcon",
+    "name": "Peregrine Falcon",
+    "fact": "Peregrine falcons are the fastest animals on Earth, diving at over 240 mph!",
+    "question": "What is a falcon's hunting dive called?",
+    "options": ["A plunge", "A stoop", "A swoop", "A dash"],
+    "answer": "A stoop",
+    "media": {
+      "image": "media/birds/falcon.jpg"
+    }
+  },
+  {
+    "id": "cockatoo",
+    "name": "Cockatoo",
+    "fact": "Cockatoos can live over 70 years and some can dance to music!",
+    "question": "What is the crest on a cockatoo's head used for?",
+    "options": ["Flying faster", "Showing emotions", "Hearing better", "Attracting prey"],
+    "answer": "Showing emotions",
+    "media": {
+      "image": "media/birds/cockatoo.jpg"
+    }
+  }
+]

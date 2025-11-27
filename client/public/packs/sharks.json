@@ -1,0 +1,206 @@
+[
+  {
+    "id": "great-white",
+    "name": "Great White Shark",
+    "fact": "Great white sharks can detect a single drop of blood in 25 gallons of water from 3 miles away.",
+    "question": "How many teeth can a great white shark have at once?",
+    "options": ["50", "100", "300", "500"],
+    "answer": "300",
+    "media": {
+      "image": "media/sharks/great-white.jpg",
+      "video": "media/videos/great-white-shark.mp4"
+    }
+  },
+  {
+    "id": "hammerhead",
+    "name": "Hammerhead Shark",
+    "fact": "Hammerhead sharks have 360-degree vision thanks to their unique head shape called a cephalofoil.",
+    "question": "What is the main advantage of a hammerhead's head shape?",
+    "options": ["Better swimming", "Improved vision and prey detection", "Faster eating", "Deeper diving"],
+    "answer": "Improved vision and prey detection",
+    "media": {
+      "image": "media/sharks/hammerhead.jpg",
+      "video": "media/videos/hammerhead-shark.mp4"
+    }
+  },
+  {
+    "id": "whale-shark",
+    "name": "Whale Shark",
+    "fact": "Whale sharks are the largest fish in the ocean, growing up to 40 feet long, yet they only eat tiny plankton.",
+    "question": "How do whale sharks feed?",
+    "options": ["Hunting large fish", "Filter feeding", "Scavenging", "Eating seaweed"],
+    "answer": "Filter feeding",
+    "media": {
+      "image": "media/sharks/whale-shark.jpg",
+      "video": "media/videos/whale-shark.mp4"
+    }
+  },
+  {
+    "id": "tiger-shark",
+    "name": "Tiger Shark",
+    "fact": "Tiger sharks are nicknamed 'garbage cans of the sea' because they eat almost anything, including license plates.",
+    "question": "Why are they called tiger sharks?",
+    "options": ["They hunt like tigers", "They have stripes when young", "They roar", "They're orange colored"],
+    "answer": "They have stripes when young",
+    "media": {
+      "image": "media/sharks/tiger-shark.jpg",
+      "video": "media/videos/tiger-shark.mp4"
+    }
+  },
+  {
+    "id": "bull-shark",
+    "name": "Bull Shark",
+    "fact": "Bull sharks can survive in both salt and fresh water and have been found in rivers thousands of miles from the ocean.",
+    "question": "What makes bull sharks particularly dangerous to humans?",
+    "options": ["Their size", "They live near shores and in rivers", "Their speed", "Their venom"],
+    "answer": "They live near shores and in rivers",
+    "media": {
+      "image": "media/sharks/bull-shark.jpg",
+      "video": "media/videos/bull-shark.mp4"
+    }
+  },
+  {
+    "id": "mako",
+    "name": "Shortfin Mako Shark",
+    "fact": "Mako sharks are the fastest sharks in the ocean, reaching speeds of up to 45 mph.",
+    "question": "What can mako sharks do that most sharks cannot?",
+    "options": ["Walk on land", "Jump out of the water up to 20 feet", "Change color", "Breathe air"],
+    "answer": "Jump out of the water up to 20 feet",
+    "media": {
+      "image": "media/sharks/mako.jpg",
+      "video": "media/videos/mako-shark.mp4"
+    }
+  },
+  {
+    "id": "thresher",
+    "name": "Thresher Shark",
+    "fact": "Thresher sharks have a tail fin that can be as long as their entire body, which they use like a whip to stun fish.",
+    "question": "How do thresher sharks use their long tails?",
+    "options": ["For steering", "To whip and stun prey", "For display to mates", "For swimming faster"],
+    "answer": "To whip and stun prey",
+    "media": {
+      "image": "media/sharks/thresher.jpg"
+    }
+  },
+  {
+    "id": "nurse-shark",
+    "name": "Nurse Shark",
+    "fact": "Nurse sharks are one of the most docile shark species and often rest in groups on the ocean floor during the day.",
+    "question": "How do nurse sharks breathe while resting on the bottom?",
+    "options": ["They hold their breath", "They pump water over their gills", "They surface regularly", "They use lungs"],
+    "answer": "They pump water over their gills",
+    "media": {
+      "image": "media/sharks/nurse-shark.jpg"
+    }
+  },
+  {
+    "id": "blue-shark",
+    "name": "Blue Shark",
+    "fact": "Blue sharks are among the most wide-ranging sharks, crossing entire oceans during their migrations.",
+    "question": "What gives blue sharks their distinctive color?",
+    "options": ["Their diet", "Pigments in their skin", "Light reflection", "Algae on their skin"],
+    "answer": "Pigments in their skin",
+    "media": {
+      "image": "media/sharks/blue-shark.jpg"
+    }
+  },
+  {
+    "id": "lemon-shark",
+    "name": "Lemon Shark",
+    "fact": "Lemon sharks can recognize and form social bonds with other individual sharks.",
+    "question": "Why are lemon sharks popular in research?",
+    "options": ["They're colorful", "They survive well in captivity", "They're very small", "They don't bite"],
+    "answer": "They survive well in captivity",
+    "media": {
+      "image": "media/sharks/lemon-shark.jpg"
+    }
+  },
+  {
+    "id": "reef-shark",
+    "name": "Caribbean Reef Shark",
+    "fact": "Reef sharks play a crucial role in keeping coral reef ecosystems healthy by controlling fish populations.",
+    "question": "Where do reef sharks typically hunt?",
+    "options": ["Open ocean", "Deep sea", "Around coral reefs", "Near the surface"],
+    "answer": "Around coral reefs",
+    "media": {
+      "image": "media/sharks/reef-shark.jpg"
+    }
+  },
+  {
+    "id": "blacktip",
+    "name": "Blacktip Shark",
+    "fact": "Blacktip sharks are known for their spectacular spinning jumps when feeding, sometimes rotating 3 times in the air.",
+    "question": "What distinctive feature identifies blacktip sharks?",
+    "options": ["White belly", "Black tips on their fins", "Red eyes", "Spotted pattern"],
+    "answer": "Black tips on their fins",
+    "media": {
+      "image": "media/sharks/blacktip.jpg"
+    }
+  },
+  {
+    "id": "goblin-shark",
+    "name": "Goblin Shark",
+    "fact": "Goblin sharks are called 'living fossils' because their family has existed for 125 million years.",
+    "question": "What unusual ability does a goblin shark's jaw have?",
+    "options": ["It can lock shut", "It can extend outward to catch prey", "It can crush shells", "It can regrow teeth instantly"],
+    "answer": "It can extend outward to catch prey",
+    "media": {
+      "image": "media/sharks/goblin-shark.jpg"
+    }
+  },
+  {
+    "id": "sand-tiger",
+    "name": "Sand Tiger Shark",
+    "fact": "Sand tiger sharks gulp air at the surface to help them float motionless in the water.",
+    "question": "What happens to sand tiger shark embryos in the womb?",
+    "options": ["They hibernate", "The largest eats its siblings", "They form a protective shell", "They glow in the dark"],
+    "answer": "The largest eats its siblings",
+    "media": {
+      "image": "media/sharks/sand-tiger.jpg"
+    }
+  },
+  {
+    "id": "basking-shark",
+    "name": "Basking Shark",
+    "fact": "Basking sharks are the second-largest fish in the world and filter 2,000 tons of water per hour through their gills.",
+    "question": "How did basking sharks get their name?",
+    "options": ["They bask in sunlight near the surface", "They live near basking seals", "They were discovered in Basque country", "Their color looks sun-baked"],
+    "answer": "They bask in sunlight near the surface",
+    "media": {
+      "image": "media/sharks/basking-shark.jpg"
+    }
+  },
+  {
+    "id": "leopard-shark",
+    "name": "Leopard Shark",
+    "fact": "Leopard sharks have a beautiful spotted pattern and are commonly seen in shallow bays along the California coast.",
+    "question": "What do leopard sharks primarily eat?",
+    "options": ["Large fish", "Clams, crabs, and worms", "Seaweed", "Other sharks"],
+    "answer": "Clams, crabs, and worms",
+    "media": {
+      "image": "media/sharks/leopard-shark.jpg"
+    }
+  },
+  {
+    "id": "oceanic-whitetip",
+    "name": "Oceanic Whitetip Shark",
+    "fact": "Oceanic whitetip sharks were once the most abundant large predator on Earth but are now critically endangered.",
+    "question": "Where do oceanic whitetip sharks prefer to live?",
+    "options": ["Near coral reefs", "In deep open ocean", "In rivers", "Near the poles"],
+    "answer": "In deep open ocean",
+    "media": {
+      "image": "media/sharks/oceanic-whitetip.jpg"
+    }
+  },
+  {
+    "id": "angel-shark",
+    "name": "Angel Shark",
+    "fact": "Angel sharks are flat like rays and bury themselves in sand to ambush prey swimming above them.",
+    "question": "Why are angel sharks sometimes mistaken for rays?",
+    "options": ["They have stingers", "Their flat body shape", "They swim the same way", "They live in the same places"],
+    "answer": "Their flat body shape",
+    "media": {
+      "image": "media/sharks/angel-shark.jpg"
+    }
+  }
+]

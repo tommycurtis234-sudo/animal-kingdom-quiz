@@ -1,0 +1,206 @@
+[
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "fact": "Jaguars have the strongest bite of any big cat and can crush turtle shells and crocodile skulls.",
+    "question": "Unlike most cats, what do jaguars love to do?",
+    "options": ["Climb trees", "Swim", "Run long distances", "Hunt in packs"],
+    "answer": "Swim",
+    "media": {
+      "image": "media/jungle/jaguar.jpg",
+      "video": "media/videos/jaguar.mp4"
+    }
+  },
+  {
+    "id": "sloth",
+    "name": "Three-Toed Sloth",
+    "fact": "Sloths move so slowly that algae grows on their fur, helping them camouflage in the trees.",
+    "question": "How many hours per day do sloths sleep?",
+    "options": ["5-6 hours", "10-12 hours", "15-20 hours", "22-23 hours"],
+    "answer": "15-20 hours",
+    "media": {
+      "image": "media/jungle/sloth.jpg",
+      "video": "media/videos/sloth.mp4"
+    }
+  },
+  {
+    "id": "toucan",
+    "name": "Toucan",
+    "fact": "A toucan's colorful bill can be one-third of its total body length but is very lightweight.",
+    "question": "What is a toucan's large beak used for?",
+    "options": ["Fighting predators", "Reaching fruit and regulating body heat", "Digging nests", "Attracting insects"],
+    "answer": "Reaching fruit and regulating body heat",
+    "media": {
+      "image": "media/jungle/toucan.jpg",
+      "video": "media/videos/toucan.mp4"
+    }
+  },
+  {
+    "id": "poison-dart-frog",
+    "name": "Poison Dart Frog",
+    "fact": "One golden poison dart frog has enough toxin to kill 10 grown men.",
+    "question": "Why are poison dart frogs so brightly colored?",
+    "options": ["To attract mates", "To warn predators they're toxic", "To blend in with flowers", "To see each other"],
+    "answer": "To warn predators they're toxic",
+    "media": {
+      "image": "media/jungle/poison-dart-frog.jpg",
+      "video": "media/videos/poison-dart-frog.mp4"
+    }
+  },
+  {
+    "id": "anaconda",
+    "name": "Green Anaconda",
+    "fact": "Green anacondas are the heaviest snakes in the world, weighing up to 550 pounds.",
+    "question": "How do anacondas kill their prey?",
+    "options": ["Venomous bite", "Constriction", "Drowning only", "Sharp teeth"],
+    "answer": "Constriction",
+    "media": {
+      "image": "media/jungle/anaconda.jpg",
+      "video": "media/videos/anaconda.mp4"
+    }
+  },
+  {
+    "id": "macaw",
+    "name": "Scarlet Macaw",
+    "fact": "Macaws can live up to 80 years and mate for life with a single partner.",
+    "question": "Why do macaws eat clay from riverbanks?",
+    "options": ["For minerals", "To neutralize toxins in their diet", "To clean their beaks", "For hydration"],
+    "answer": "To neutralize toxins in their diet",
+    "media": {
+      "image": "media/jungle/macaw.jpg",
+      "video": "media/videos/macaw.mp4"
+    }
+  },
+  {
+    "id": "spider-monkey",
+    "name": "Spider Monkey",
+    "fact": "Spider monkeys can swing through trees at 35 miles per hour using their strong prehensile tails.",
+    "question": "What makes spider monkeys unusual among monkeys?",
+    "options": ["They have no thumbs", "They can't climb", "They live alone", "They eat meat"],
+    "answer": "They have no thumbs",
+    "media": {
+      "image": "media/jungle/spider-monkey.jpg"
+    }
+  },
+  {
+    "id": "capybara",
+    "name": "Capybara",
+    "fact": "Capybaras are the world's largest rodents and are closely related to guinea pigs.",
+    "question": "Why do other animals often sit on capybaras?",
+    "options": ["For warmth", "Capybaras are very calm and friendly", "For protection", "To eat parasites"],
+    "answer": "Capybaras are very calm and friendly",
+    "media": {
+      "image": "media/jungle/capybara.jpg"
+    }
+  },
+  {
+    "id": "harpy-eagle",
+    "name": "Harpy Eagle",
+    "fact": "Harpy eagles have talons as large as grizzly bear claws and can carry prey equal to their body weight.",
+    "question": "What is the harpy eagle's main prey?",
+    "options": ["Fish", "Monkeys and sloths", "Snakes", "Other birds"],
+    "answer": "Monkeys and sloths",
+    "media": {
+      "image": "media/jungle/harpy-eagle.jpg"
+    }
+  },
+  {
+    "id": "howler-monkey",
+    "name": "Howler Monkey",
+    "fact": "Howler monkeys are the loudest land animals - their calls can be heard 3 miles away.",
+    "question": "Why do howler monkeys howl?",
+    "options": ["When they're hungry", "To mark territory without fighting", "To attract prey", "When it rains"],
+    "answer": "To mark territory without fighting",
+    "media": {
+      "image": "media/jungle/howler-monkey.jpg"
+    }
+  },
+  {
+    "id": "tapir",
+    "name": "Brazilian Tapir",
+    "fact": "Tapirs have existed for 55 million years and are related to horses and rhinoceroses.",
+    "question": "What is a tapir's flexible snout used for?",
+    "options": ["Breathing underwater", "Grabbing leaves and fruit", "Making calls", "Sensing predators"],
+    "answer": "Grabbing leaves and fruit",
+    "media": {
+      "image": "media/jungle/tapir.jpg"
+    }
+  },
+  {
+    "id": "ocelot",
+    "name": "Ocelot",
+    "fact": "Ocelots are excellent swimmers and often catch fish and crabs for food.",
+    "question": "When are ocelots most active?",
+    "options": ["Dawn and dusk", "Midday", "Only at night", "Early morning"],
+    "answer": "Only at night",
+    "media": {
+      "image": "media/jungle/ocelot.jpg"
+    }
+  },
+  {
+    "id": "piranha",
+    "name": "Red-Bellied Piranha",
+    "fact": "Despite their fearsome reputation, piranhas are actually quite timid and rarely attack humans.",
+    "question": "What triggers a piranha feeding frenzy?",
+    "options": ["Any movement in water", "Blood and splashing during dry season", "The full moon", "Loud noises"],
+    "answer": "Blood and splashing during dry season",
+    "media": {
+      "image": "media/jungle/piranha.jpg"
+    }
+  },
+  {
+    "id": "caiman",
+    "name": "Black Caiman",
+    "fact": "Black caimans are the largest predators in the Amazon and can grow up to 16 feet long.",
+    "question": "How are caimans different from crocodiles?",
+    "options": ["Caimans are larger", "Caimans have wider snouts", "Caimans live in salt water", "Caimans are herbivores"],
+    "answer": "Caimans have wider snouts",
+    "media": {
+      "image": "media/jungle/caiman.jpg"
+    }
+  },
+  {
+    "id": "red-eyed-tree-frog",
+    "name": "Red-Eyed Tree Frog",
+    "fact": "Red-eyed tree frogs flash their bright eyes to startle predators, giving them time to escape.",
+    "question": "Where do red-eyed tree frogs lay their eggs?",
+    "options": ["In water", "On leaves above water", "Underground", "In tree holes"],
+    "answer": "On leaves above water",
+    "media": {
+      "image": "media/jungle/red-eyed-tree-frog.jpg"
+    }
+  },
+  {
+    "id": "tamarin",
+    "name": "Golden Lion Tamarin",
+    "fact": "Golden lion tamarins get their name from their impressive golden mane that looks like a lion's.",
+    "question": "How big are golden lion tamarins?",
+    "options": ["Size of a house cat", "Size of a squirrel", "Size of a dog", "Size of a rat"],
+    "answer": "Size of a squirrel",
+    "media": {
+      "image": "media/jungle/tamarin.jpg"
+    }
+  },
+  {
+    "id": "anteater",
+    "name": "Giant Anteater",
+    "fact": "Giant anteaters have no teeth but can eat up to 35,000 ants and termites per day with their 2-foot tongue.",
+    "question": "How do anteaters protect themselves?",
+    "options": ["They run away", "They spray a bad smell", "They have sharp claws", "They play dead"],
+    "answer": "They have sharp claws",
+    "media": {
+      "image": "media/jungle/anteater.jpg"
+    }
+  },
+  {
+    "id": "emerald-tree-boa",
+    "name": "Emerald Tree Boa",
+    "fact": "Emerald tree boas have heat-sensing pits that let them detect warm-blooded prey in complete darkness.",
+    "question": "How do emerald tree boas rest?",
+    "options": ["Stretched out on branches", "Coiled in a ball over a branch", "In tree holes", "On the ground"],
+    "answer": "Coiled in a ball over a branch",
+    "media": {
+      "image": "media/jungle/emerald-tree-boa.jpg"
+    }
+  }
+]

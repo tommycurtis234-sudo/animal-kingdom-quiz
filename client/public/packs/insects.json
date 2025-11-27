@@ -1,0 +1,206 @@
+[
+  {
+    "id": "monarch-butterfly",
+    "name": "Monarch Butterfly",
+    "fact": "Monarch butterflies migrate up to 3,000 miles from Canada to Mexico every year!",
+    "question": "How do monarch butterflies know where to migrate?",
+    "options": ["They follow the sun", "They use Earth's magnetic field", "They follow rivers", "Scientists don't fully know"],
+    "answer": "Scientists don't fully know",
+    "media": {
+      "image": "media/insects/monarch-butterfly.jpg",
+      "video": "media/videos/monarch_butterfly_on_flower.mp4"
+    }
+  },
+  {
+    "id": "honeybee",
+    "name": "Honeybee",
+    "fact": "A single honeybee produces only about 1/12th of a teaspoon of honey in its entire life.",
+    "question": "How do honeybees communicate the location of flowers?",
+    "options": ["By buzzing loudly", "By releasing scents", "By doing a waggle dance", "By touching antennae"],
+    "answer": "By doing a waggle dance",
+    "media": {
+      "image": "media/insects/honeybee.jpg",
+      "video": "media/videos/bee.mp4"
+    }
+  },
+  {
+    "id": "praying-mantis",
+    "name": "Praying Mantis",
+    "fact": "Praying mantises are the only insects that can turn their heads 180 degrees!",
+    "question": "What is a praying mantis known for doing after mating?",
+    "options": ["Building a nest together", "The female sometimes eats the male", "They migrate together", "They hibernate"],
+    "answer": "The female sometimes eats the male",
+    "media": {
+      "image": "media/insects/praying-mantis.jpg",
+      "video": "media/videos/praying-mantis.mp4"
+    }
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "fact": "Fireflies produce light through a chemical reaction in their bodies - it's called bioluminescence!",
+    "question": "Why do fireflies light up?",
+    "options": ["To scare predators", "To find mates", "To see in the dark", "To warm up"],
+    "answer": "To find mates",
+    "media": {
+      "image": "media/insects/firefly.jpg",
+      "video": "media/videos/firefly.mp4"
+    }
+  },
+  {
+    "id": "ladybug",
+    "name": "Ladybug",
+    "fact": "A ladybug can eat up to 5,000 aphids in its lifetime, making them a farmer's best friend!",
+    "question": "What do the spots on a ladybug indicate?",
+    "options": ["Their age", "Nothing specific - just their species", "How many eggs they've laid", "Their gender"],
+    "answer": "Nothing specific - just their species",
+    "media": {
+      "image": "media/insects/ladybug.jpg",
+      "video": "media/videos/ladybug.mp4"
+    }
+  },
+  {
+    "id": "dragonfly",
+    "name": "Dragonfly",
+    "fact": "Dragonflies have been around for 300 million years - they lived with the dinosaurs!",
+    "question": "What percentage of their hunts are successful for dragonflies?",
+    "options": ["About 25%", "About 50%", "About 75%", "Over 95%"],
+    "answer": "Over 95%",
+    "media": {
+      "image": "media/insects/dragonfly.jpg",
+      "video": "media/videos/dragonfly.mp4"
+    }
+  },
+  {
+    "id": "atlas-moth",
+    "name": "Atlas Moth",
+    "fact": "Atlas moths are so large (12-inch wingspan) that they are sometimes mistaken for birds!",
+    "question": "Do adult atlas moths eat?",
+    "options": ["Yes, they eat leaves", "Yes, they drink nectar", "No, they don't have mouths", "Yes, they eat other insects"],
+    "answer": "No, they don't have mouths",
+    "media": {
+      "image": "media/insects/atlas-moth.jpg"
+    }
+  },
+  {
+    "id": "leaf-cutter-ant",
+    "name": "Leaf-Cutter Ant",
+    "fact": "Leaf-cutter ants don't eat leaves - they use them to grow fungus, which they actually eat!",
+    "question": "How much weight can a leaf-cutter ant carry?",
+    "options": ["Half its body weight", "Equal to its body weight", "10 times its body weight", "50 times its body weight"],
+    "answer": "50 times its body weight",
+    "media": {
+      "image": "media/insects/leaf-cutter-ant.jpg"
+    }
+  },
+  {
+    "id": "hercules-beetle",
+    "name": "Hercules Beetle",
+    "fact": "Hercules beetles can grow up to 7 inches long, making them one of the largest beetles in the world!",
+    "question": "What do male Hercules beetles use their horns for?",
+    "options": ["Digging", "Defense against predators", "Fighting other males", "Attracting females with displays"],
+    "answer": "Fighting other males",
+    "media": {
+      "image": "media/insects/hercules-beetle.jpg"
+    }
+  },
+  {
+    "id": "walking-stick",
+    "name": "Walking Stick",
+    "fact": "Walking sticks are masters of camouflage - they can sway like branches in the wind!",
+    "question": "How do walking sticks protect themselves besides camouflage?",
+    "options": ["They bite", "They can regrow lost legs", "They spray acid", "They make loud sounds"],
+    "answer": "They can regrow lost legs",
+    "media": {
+      "image": "media/insects/walking-stick.jpg"
+    }
+  },
+  {
+    "id": "cicada",
+    "name": "Cicada",
+    "fact": "Some cicadas spend 17 years underground before emerging as adults!",
+    "question": "How do cicadas make their famous loud sound?",
+    "options": ["Rubbing their legs together", "Vibrating membranes on their abdomen", "Flapping their wings", "With their mouths"],
+    "answer": "Vibrating membranes on their abdomen",
+    "media": {
+      "image": "media/insects/cicada.jpg"
+    }
+  },
+  {
+    "id": "dung-beetle",
+    "name": "Dung Beetle",
+    "fact": "Dung beetles navigate by using the Milky Way - they're the first known insects to use the stars!",
+    "question": "Why do dung beetles roll dung into balls?",
+    "options": ["For fun", "To feed their babies", "To mark territory", "To cool off"],
+    "answer": "To feed their babies",
+    "media": {
+      "image": "media/insects/dung-beetle.jpg"
+    }
+  },
+  {
+    "id": "bombardier-beetle",
+    "name": "Bombardier Beetle",
+    "fact": "Bombardier beetles spray boiling hot chemicals from their abdomen to defend themselves!",
+    "question": "How hot is the spray from a bombardier beetle?",
+    "options": ["Room temperature", "Warm like bath water", "Near boiling - about 212F", "Freezing cold"],
+    "answer": "Near boiling - about 212F",
+    "media": {
+      "image": "media/insects/bombardier-beetle.jpg"
+    }
+  },
+  {
+    "id": "blue-morpho",
+    "name": "Blue Morpho Butterfly",
+    "fact": "Blue morpho butterflies aren't actually blue - their wings reflect light to create the blue color!",
+    "question": "What color are the undersides of blue morpho wings?",
+    "options": ["Bright blue", "Brown with eyespots", "White", "Green"],
+    "answer": "Brown with eyespots",
+    "media": {
+      "image": "media/insects/blue-morpho.jpg"
+    }
+  },
+  {
+    "id": "assassin-bug",
+    "name": "Assassin Bug",
+    "fact": "Some assassin bugs wear the bodies of their dead prey as camouflage armor!",
+    "question": "How do assassin bugs catch their prey?",
+    "options": ["Building webs", "Ambush attacks with a stabbing beak", "Chasing at high speed", "Using sticky traps"],
+    "answer": "Ambush attacks with a stabbing beak",
+    "media": {
+      "image": "media/insects/assassin-bug.jpg"
+    }
+  },
+  {
+    "id": "jewel-wasp",
+    "name": "Jewel Wasp",
+    "fact": "Jewel wasps turn cockroaches into zombies by injecting venom directly into their brains!",
+    "question": "Why does the jewel wasp 'zombify' cockroaches?",
+    "options": ["To eat them immediately", "To lay eggs inside them", "For protection", "To collect for a nest"],
+    "answer": "To lay eggs inside them",
+    "media": {
+      "image": "media/insects/jewel-wasp.jpg"
+    }
+  },
+  {
+    "id": "goliath-beetle",
+    "name": "Goliath Beetle",
+    "fact": "Goliath beetles are among the heaviest insects, weighing up to 3.5 ounces as larvae!",
+    "question": "Where are Goliath beetles found in the wild?",
+    "options": ["South America", "Africa", "Australia", "North America"],
+    "answer": "Africa",
+    "media": {
+      "image": "media/insects/goliath-beetle.jpg"
+    }
+  },
+  {
+    "id": "luna-moth",
+    "name": "Luna Moth",
+    "fact": "Luna moths only live about one week as adults because they have no mouths to eat!",
+    "question": "What is the purpose of a luna moth's long tail?",
+    "options": ["Balance during flight", "To confuse bat sonar", "Temperature regulation", "Attracting mates"],
+    "answer": "To confuse bat sonar",
+    "media": {
+      "image": "media/insects/luna-moth.jpg"
+    }
+  }
+]
